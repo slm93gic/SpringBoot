@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "kuang.hello",
+      "type": "com.kuang.HelloProperties",
+      "sourceType": "com.kuang.HelloProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kuang.hello.prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.kuang.HelloProperties"
+    },
+    {
+      "name": "kuang.hello.suffix",
+      "type": "java.lang.String",
+      "sourceType": "com.kuang.HelloProperties"
+    }
+  ],
+  "hints": []
+}
