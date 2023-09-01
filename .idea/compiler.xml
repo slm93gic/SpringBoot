@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo12-spring5-tx" />
+        <module name="demo11-spring4-aop" />
+        <module name="demo06-webJS" />
+        <module name="demo10-spring3" />
+        <module name="demo13-BFPP" />
+        <module name="demo01-helloworld" />
+        <module name="demo07-thymeleaf" />
+        <module name="kuang-spring-boot-starter-autoconfigure" />
+        <module name="demo08-spring1" />
+        <module name="demo02-JSR303" />
+        <module name="demo04-JDBC" />
+        <module name="demo05-myBatis" />
+        <module name="kuang-spring-boot-starter" />
+        <module name="kuang-spring-boot-starter-test" />
+        <module name="demo09-spring2" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo01-helloworld" options="-parameters" />
+      <module name="demo02-JSR303" options="-parameters" />
+      <module name="demo04-JDBC" options="-parameters" />
+      <module name="demo05-myBatis" options="-parameters" />
+      <module name="demo06-webJS" options="-parameters" />
+      <module name="demo07-thymeleaf" options="-parameters" />
+      <module name="demo08-spring1" options="-parameters" />
+      <module name="demo09-spring2" options="-parameters" />
+      <module name="demo10-spring3" options="-parameters" />
+      <module name="demo11-spring4-aop" options="-parameters" />
+      <module name="demo12-spring5-tx" options="-parameters" />
+      <module name="demo13-BFPP" options="-parameters" />
+      <module name="kuang-spring-boot-starter" options="-parameters" />
+      <module name="kuang-spring-boot-starter-test" options="-parameters" />
+    </option>
+  </component>
+</project>

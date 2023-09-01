@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="MysqlImpl" class="com.slm.spring.dao.impl.UserDaoMySqlImpl"/>
+    <bean id="OracleImpl" class="com.slm.spring.dao.impl.UserDaoOracleImpl"/>
+
+    <!--bean就是java对象 , 由Spring创建和管理-->
+    <bean id="hello" class="com.slm.spring.entity.Hello">
+        <property name="name" value="Spring"/>
+    </bean>
+
+    <bean id="ServiceImpl" class="com.slm.spring.service.UserServiceImpl">
+        <property name="userDao" ref="OracleImpl"/>
+    </bean>
+
+    <bean id="user" class="com.slm.spring.entity.User">
+        <property name="name" value="kuangshen"/>
+    </bean>
+
+</beans>
