@@ -1,10 +1,8 @@
 package com.slm;
 
-import com.slm.entity.ProcessorEntity;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import javax.annotation.Resource;
 
 /**
  * @author limin shen
@@ -14,13 +12,8 @@ import javax.annotation.Resource;
 @SpringBootApplication
 public class BfppApplication {
 
-    @Resource
-    private ProcessorEntity entity;
-
     public static void main(String[] args) {
         SpringApplication.run(BfppApplication.class, args);
-        BfppApplication application = new BfppApplication();
-        System.out.println(application.entity);
     }
 
 
